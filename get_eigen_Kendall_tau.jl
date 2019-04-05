@@ -91,7 +91,7 @@ S = map(x->round(x,6),S)
 println("The full list of MDS eigenvalues is")
 println(S)
 
-# Print coordinate
+# Print MDS coordinates for permutations
 if print_embed == 1
     for i = 1:factorial(n)
         println("The coordinates of")
